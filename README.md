@@ -77,6 +77,7 @@ Requires Node 20+ and a MongoDB connection string.
 npm install
 cp .env.example .env     # fill in the values
 npm run seed             # load the current site content into the database
+                         # (npm run seed:force to wipe and reseed)
 npm run dev              # http://localhost:5000
 ```
 
@@ -85,7 +86,8 @@ npm run dev              # http://localhost:5000
 | `npm run dev` | Watch-mode dev server (tsx) |
 | `npm run build` | Type-check and compile to `dist/` |
 | `npm start` | Run the compiled server |
-| `npm run seed` | Populate the database (add `--force` to wipe and reseed) |
+| `npm run seed` | Populate the database (refuses if it already holds works) |
+| `npm run seed:force` | Wipe and reseed. Destructive. |
 | `npm test` | Run the test suite |
 | `npm run test:coverage` | Tests with a coverage report |
 | `npm run lint` | ESLint |
