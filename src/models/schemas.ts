@@ -32,6 +32,7 @@ export const NavItemSchema = new Schema(
     id: { type: String, required: true, trim: true },
     label: { type: String, required: true, trim: true },
     to: { type: String, required: true, trim: true },
+    icon: { type: String, trim: true },
   },
   { _id: false },
 )

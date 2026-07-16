@@ -52,6 +52,7 @@ export const disciplineCreateSchema = z
     id: disciplineId,
     route: z.string().trim().min(1),
     navLabel: z.string().trim().min(1),
+    icon: z.string().trim().optional(),
     section: sectionContent,
     toolsNote: z.string().trim().max(500).optional(),
     groups: z
@@ -111,7 +112,16 @@ export const configUpdateSchema = z
       .optional(),
 
     nav: z
-      .array(z.object({ id: slug, label: z.string().trim(), to: z.string().trim() }).strict())
+      .array(
+        z
+          .object({
+            id: slug,
+            label: z.string().trim(),
+            to: z.string().trim(),
+            icon: z.string().trim().optional(),
+          })
+          .strict(),
+      )
       .optional(),
 
     socials: z

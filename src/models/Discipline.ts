@@ -6,6 +6,7 @@ export interface IDisciplineDocument extends Document {
   id: DisciplineId
   route: string
   navLabel: string
+  icon?: string
   section: ISectionContent
   toolsNote?: string
   groups: IWorkGroup[]
@@ -27,6 +28,7 @@ const DisciplineSchema = new Schema<IDisciplineDocument>(
     },
     route: { type: String, required: true, trim: true },
     navLabel: { type: String, required: true, trim: true },
+    icon: { type: String, trim: true },
     section: { type: SectionContentSchema, required: true },
     toolsNote: { type: String, trim: true, maxlength: 500 },
     groups: { type: [WorkGroupSchema], default: [] },

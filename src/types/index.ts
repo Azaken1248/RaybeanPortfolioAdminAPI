@@ -41,6 +41,7 @@ export interface INavItem {
   id: string
   label: string
   to: string
+  icon?: string
 }
 
 export interface ISocialLink {
