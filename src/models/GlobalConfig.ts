@@ -78,6 +78,7 @@ const GlobalConfigSchema = new Schema<IGlobalConfigDocument>(
 
     contactContent: {
       section: { type: SectionContentSchema, required: true },
+      buttonLabel: { type: String, required: true, trim: true },
       methods: { type: [ContactMethodSchema], default: [] },
       // Absent until the message bot exists. Its presence is what makes the
       // website render a contact form.

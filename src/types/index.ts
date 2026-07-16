@@ -121,6 +121,7 @@ export interface IContactForm {
 
 export interface IContactContent {
   section: ISectionContent
+  buttonLabel: string
   methods: IContactMethod[]
   form?: IContactForm
 }

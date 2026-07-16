@@ -57,6 +57,7 @@ export const validConfig = {
   },
   contactContent: {
     section: { title: "Contact Me!" },
+    buttonLabel: "contact me!",
     methods: [
       {
         id: "discord",

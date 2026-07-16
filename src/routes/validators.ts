@@ -180,6 +180,7 @@ export const configUpdateSchema = z
     contactContent: z
       .object({
         section: sectionContent,
+        buttonLabel: z.string().trim().min(1),
         methods: z
           .array(
             z
