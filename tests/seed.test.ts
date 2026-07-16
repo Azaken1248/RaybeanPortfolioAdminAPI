@@ -39,9 +39,13 @@ describe("Seed fixture", () => {
     const works = await Work.find().sort({ sortOrder: 1 }).lean()
     expect(works).toHaveLength(seedData.works.length)
 
-    // The aspect-ratio fix depends on these surviving the round trip.
-    const withDims = works.filter((w) => w.width && w.height)
-    expect(withDims.length).toBeGreaterThan(0)
+    // The aspect-ratio fix depends on these surviving the round trip. Every
+    // image work must carry them: one slipped through when the generator's
+    // regex missed a path that prettier had wrapped onto its own line.
+    const noDims = works
+      .filter((w) => w.medium === "image" && !(w.width && w.height))
+      .map((w) => w.id)
+    expect(noDims).toEqual([])
 
     // The illustration group's empty heading must survive too.
     const illustration = await Discipline.findOne({ id: "illustration" }).lean()
