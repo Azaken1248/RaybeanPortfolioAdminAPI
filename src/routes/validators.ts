@@ -21,6 +21,37 @@ const sectionContent = z
   .strict()
 
 const disciplineId = z.enum(["graphic-design", "illustration", "video"])
+
+/** Any CSS colour the browser will accept; hex is what the admin sends. */
+const cssColor = z
+  .string()
+  .trim()
+  .min(1)
+  .regex(
+    /^(#[0-9a-fA-F]{3,8}|rgb|hsl|oklch|color-mix)/,
+    "must be a hex, rgb(), hsl(), oklch() or color-mix() colour",
+  )
+
+const siteTheme = z
+  .object({
+    colors: z
+      .object({
+        bg: cssColor,
+        surface: cssColor,
+        ink: cssColor,
+        lavender: cssColor,
+        periwinkle: cssColor,
+        cream: cssColor,
+      })
+      .strict(),
+    fonts: z
+      .object({
+        display: z.string().trim().min(1).max(80),
+        body: z.string().trim().min(1).max(80),
+      })
+      .strict(),
+  })
+  .strict()
 const layout = z.enum(["grid", "masonry", "video-grid", "carousel"])
 
 export const workCreateSchema = z
@@ -107,6 +138,7 @@ export const configUpdateSchema = z
             twitterHandle: z.string().trim().optional(),
           })
           .strict(),
+        theme: siteTheme.optional(),
       })
       .strict()
       .optional(),

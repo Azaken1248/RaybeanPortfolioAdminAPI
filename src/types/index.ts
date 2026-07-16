@@ -28,6 +28,18 @@ export interface ISeoConfig {
   twitterHandle?: string
 }
 
+export interface ISiteTheme {
+  colors: {
+    bg: string
+    surface: string
+    ink: string
+    lavender: string
+    periwinkle: string
+    cream: string
+  }
+  fonts: { display: string; body: string }
+}
+
 export interface ISiteConfig {
   siteName: string
   pageTitle: string
@@ -35,6 +47,8 @@ export interface ISiteConfig {
   resumeUrl: string
   resumeLabel: string
   seo: ISeoConfig
+  /** Absent means the site uses the defaults compiled into its CSS. */
+  theme?: ISiteTheme
 }
 
 export interface INavItem {

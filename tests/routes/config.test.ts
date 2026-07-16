@@ -59,3 +59,56 @@ describe("Config routes", () => {
     expect(res.status).toBe(400)
   })
 })
+
+describe("Theme", () => {
+  it("serves the palette and fonts through the portfolio aggregate", async () => {
+    await GlobalConfig.create(validConfig)
+    const res = await request(app).get("/api/portfolio")
+    expect(res.body.data.siteConfig.theme.colors.ink).toBe("#464646")
+    expect(res.body.data.siteConfig.theme.fonts.display).toBe("Poppins")
+  })
+
+  it("updates the palette", async () => {
+    await GlobalConfig.create(validConfig)
+    const res = await request(app)
+      .patch("/api/config")
+      .set("Cookie", authCookie())
+      .send({
+        siteConfig: {
+          ...validConfig.siteConfig,
+          theme: {
+            ...validConfig.siteConfig.theme,
+            colors: { ...validConfig.siteConfig.theme.colors, ink: "#111111" },
+          },
+        },
+      })
+
+    expect(res.status).toBe(200)
+    expect(res.body.data.siteConfig.theme.colors.ink).toBe("#111111")
+  })
+
+  it("rejects a colour that is not a colour", async () => {
+    await GlobalConfig.create(validConfig)
+    const res = await request(app)
+      .patch("/api/config")
+      .set("Cookie", authCookie())
+      .send({
+        siteConfig: {
+          ...validConfig.siteConfig,
+          theme: {
+            ...validConfig.siteConfig.theme,
+            colors: { ...validConfig.siteConfig.theme.colors, ink: "definitely-not-a-colour" },
+          },
+        },
+      })
+    expect(res.status).toBe(400)
+  })
+
+  it("treats an absent theme as valid — the site falls back to its own CSS", async () => {
+    const { theme, ...siteConfig } = validConfig.siteConfig
+    void theme
+    await expect(
+      GlobalConfig.create({ ...validConfig, siteConfig }),
+    ).resolves.toBeDefined()
+  })
+})

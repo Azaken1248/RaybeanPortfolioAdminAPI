@@ -2,16 +2,30 @@
   "globalConfig": {
     "siteConfig": {
       "siteName": "Raybean",
-      "pageTitle": "Raybean — Graphic Designer & Illustrator",
-      "metaDescription": "Raybean (Ray) — graphic designer, illustrator and video editor. Portfolio of graphic design, illustration, video and osu! storyboard work.",
+      "pageTitle": "Raybean \u2014 Graphic Designer & Illustrator",
+      "metaDescription": "Raybean (Ray) \u2014 graphic designer, illustrator and video editor. Portfolio of graphic design, illustration, video and osu! storyboard work.",
       "resumeUrl": "/raybean-resume.pdf",
       "resumeLabel": "click me for my resume!",
       "seo": {
         "url": "https://portfolio.raybean.cc",
         "ogImage": "/og-image.jpg",
-        "ogImageAlt": "Raybean — graphic designer and illustrator",
+        "ogImageAlt": "Raybean \u2014 graphic designer and illustrator",
         "themeColor": "#B2ABC0",
         "twitterHandle": "@raybeanosu"
+      },
+      "theme": {
+        "colors": {
+          "bg": "#f7f7f7",
+          "surface": "#ffffff",
+          "ink": "#464646",
+          "lavender": "#b2abc0",
+          "periwinkle": "#bdc2cf",
+          "cream": "#ecead9"
+        },
+        "fonts": {
+          "display": "Poppins",
+          "body": "Nunito"
+        }
       }
     },
     "nav": [
@@ -194,7 +208,7 @@
       ]
     },
     "footerContent": {
-      "copyright": "© {year} Raybean. All rights reserved.",
+      "copyright": "\u00a9 {year} Raybean. All rights reserved.",
       "tagline": "Made with love and insanity.",
       "credit": {
         "prefix": "Website by",
@@ -968,14 +982,14 @@
     },
     {
       "id": "illustration-best-works-vanda-the-outsider-37",
-      "title": "Vanda — The Outsider",
+      "title": "Vanda \u2014 The Outsider",
       "discipline": "illustration",
       "group": "best-works",
       "medium": "image",
       "imageUrl": "/portfolio/illustrations/vanda-the-outsider.webp",
       "width": 1600,
       "height": 900,
-      "altText": "Vanda — The Outsider",
+      "altText": "Vanda \u2014 The Outsider",
       "tags": [
         "Illustration"
       ],

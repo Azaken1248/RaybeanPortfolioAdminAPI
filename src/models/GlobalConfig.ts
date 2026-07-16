@@ -51,6 +51,28 @@ const GlobalConfigSchema = new Schema<IGlobalConfigDocument>(
         themeColor: { type: String, required: true, trim: true },
         twitterHandle: { type: String, trim: true },
       },
+      // The site's palette and type. Optional: without it the site falls back
+      // to the defaults in its own CSS, so an unset theme is a valid state.
+      theme: {
+        type: new Schema(
+          {
+            colors: {
+              bg: { type: String, required: true, trim: true },
+              surface: { type: String, required: true, trim: true },
+              ink: { type: String, required: true, trim: true },
+              lavender: { type: String, required: true, trim: true },
+              periwinkle: { type: String, required: true, trim: true },
+              cream: { type: String, required: true, trim: true },
+            },
+            fonts: {
+              display: { type: String, required: true, trim: true },
+              body: { type: String, required: true, trim: true },
+            },
+          },
+          { _id: false },
+        ),
+        required: false,
+      },
     },
 
     nav: { type: [NavItemSchema], default: [] },

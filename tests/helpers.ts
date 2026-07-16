@@ -38,6 +38,17 @@ export const validConfig = {
       ogImageAlt: "Raybean",
       themeColor: "#B2ABC0",
     },
+    theme: {
+      colors: {
+        bg: "#f7f7f7",
+        surface: "#ffffff",
+        ink: "#464646",
+        lavender: "#b2abc0",
+        periwinkle: "#bdc2cf",
+        cream: "#ecead9",
+      },
+      fonts: { display: "Poppins", body: "Nunito" },
+    },
   },
   nav: [{ id: "illustration", label: "illustration", to: "/illustration" }],
   socials: [],
