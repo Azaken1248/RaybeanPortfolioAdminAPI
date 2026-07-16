@@ -1,0 +1,58 @@
+export class AppError extends Error {
+  public readonly statusCode: number
+  public readonly isOperational: boolean
+  public readonly code: string
+  public readonly details?: unknown
+
+  constructor(
+    message: string,
+    statusCode = 500,
+    code = "INTERNAL_ERROR",
+    isOperational = true,
+    details?: unknown,
+  ) {
+    super(message)
+    this.statusCode = statusCode
+    this.code = code
+    this.isOperational = isOperational
+    this.details = details
+    Object.setPrototypeOf(this, new.target.prototype)
+    Error.captureStackTrace(this, this.constructor)
+  }
+}
+
+export class NotFoundError extends AppError {
+  constructor(resource = "Resource") {
+    super(`${resource} not found`, 404, "NOT_FOUND")
+  }
+}
+
+export class ValidationError extends AppError {
+  constructor(message = "Validation failed", details?: unknown) {
+    super(message, 400, "VALIDATION_ERROR", true, details)
+  }
+}
+
+export class UnauthorizedError extends AppError {
+  constructor(message = "Authentication required") {
+    super(message, 401, "UNAUTHORIZED")
+  }
+}
+
+export class ForbiddenError extends AppError {
+  constructor(message = "Access denied") {
+    super(message, 403, "FORBIDDEN")
+  }
+}
+
+export class ConflictError extends AppError {
+  constructor(message = "Resource already exists") {
+    super(message, 409, "CONFLICT")
+  }
+}
+
+export class PayloadTooLargeError extends AppError {
+  constructor(message = "Payload too large") {
+    super(message, 413, "PAYLOAD_TOO_LARGE")
+  }
+}

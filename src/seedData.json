@@ -1,0 +1,1210 @@
+{
+  "globalConfig": {
+    "siteConfig": {
+      "siteName": "Raybean",
+      "pageTitle": "Raybean — Graphic Designer & Illustrator",
+      "metaDescription": "Raybean (Ray) — graphic designer, illustrator and video editor. Portfolio of graphic design, illustration, video and osu! storyboard work.",
+      "resumeUrl": "/raybean-resume.pdf",
+      "resumeLabel": "click me for my resume!",
+      "seo": {
+        "url": "https://portfolio.raybean.cc",
+        "ogImage": "/og-image.jpg",
+        "ogImageAlt": "Raybean — graphic designer and illustrator",
+        "themeColor": "#B2ABC0",
+        "twitterHandle": "@raybeanosu"
+      }
+    },
+    "nav": [
+      {
+        "id": "graphic-design",
+        "label": "graphic design",
+        "to": "/graphic-design"
+      },
+      {
+        "id": "illustration",
+        "label": "illustration",
+        "to": "/illustration"
+      },
+      {
+        "id": "video",
+        "label": "videos & storyboards",
+        "to": "/video"
+      },
+      {
+        "id": "commissions",
+        "label": "commissions",
+        "to": "/commissions"
+      }
+    ],
+    "socials": [
+      {
+        "platform": "discord",
+        "label": "Discord",
+        "handle": "raybeanosu",
+        "icon": "discord",
+        "color": "#5865F2",
+        "showInHero": true,
+        "showInFooter": true,
+        "showInContact": false
+      },
+      {
+        "platform": "email",
+        "label": "Email",
+        "handle": "raybeanosutourney@gmail.com",
+        "url": "mailto:raybeanosutourney@gmail.com",
+        "icon": "EnvelopeSimple",
+        "color": "#C08A2E",
+        "showInHero": true,
+        "showInFooter": true,
+        "showInContact": false
+      },
+      {
+        "platform": "twitter",
+        "label": "Twitter",
+        "handle": "raybeanosu",
+        "url": "https://twitter.com/raybeanosu",
+        "icon": "TwitterLogo",
+        "color": "#1DA1F2",
+        "showInHero": true,
+        "showInFooter": true,
+        "showInContact": true
+      },
+      {
+        "platform": "bluesky",
+        "label": "Bluesky",
+        "handle": "raybean.cc",
+        "url": "https://bsky.app/profile/raybean.cc",
+        "icon": "bluesky",
+        "color": "#0085FF",
+        "showInHero": true,
+        "showInFooter": true,
+        "showInContact": true
+      },
+      {
+        "platform": "pixiv",
+        "label": "Pixiv",
+        "url": "https://www.pixiv.net/en/users/103389894",
+        "icon": "pixiv",
+        "color": "#0096FA",
+        "showInHero": true,
+        "showInFooter": true,
+        "showInContact": true
+      },
+      {
+        "platform": "youtube",
+        "label": "YouTube",
+        "handle": "@raybeanosu",
+        "url": "https://www.youtube.com/@raybeanosu",
+        "icon": "YoutubeLogo",
+        "color": "#E62117",
+        "showInHero": true,
+        "showInFooter": true,
+        "showInContact": true
+      },
+      {
+        "platform": "vgen",
+        "label": "VGen",
+        "icon": "vgen",
+        "color": "#F05A28",
+        "showInHero": false,
+        "showInFooter": false,
+        "showInContact": false
+      }
+    ],
+    "heroContent": {
+      "greeting": "Hello, I'm Raybean!",
+      "intro": [
+        "You can call me **Ray**.\nI'm a **graphic designer and illustrator**. I also like making **videos** from time to time. I love making cute things! >w<",
+        "You can contact me via **discord** or **email**. I hope to be working with you in the future, making wonderful things together!~"
+      ],
+      "imageUrl": "/raybean-avatar.webp",
+      "imageAlt": "Chibi illustration of Raybean",
+      "imageCredit": {
+        "text": "Profile Photo by Dreamxiety!",
+        "note": "thank you!",
+        "href": "https://osu.ppy.sh/users/13103233"
+      },
+      "ctaButtons": [
+        {
+          "id": "resume",
+          "label": "my resume",
+          "href": "/raybean-resume.pdf",
+          "icon": "resume",
+          "external": true
+        },
+        {
+          "id": "osu-profile",
+          "label": "my osu! profile",
+          "href": "https://osu.ppy.sh/users/Raybean",
+          "icon": "osu",
+          "external": true
+        }
+      ]
+    },
+    "featuredSection": {
+      "title": "Featured Works",
+      "description": "Some of my favourite projects! A combination of art, graphic design and osu! storyboards."
+    },
+    "commissions": {
+      "section": {
+        "title": "commissions"
+      },
+      "isOpen": false,
+      "heading": "whoops, commissions are currently closed!",
+      "body": [
+        "I'm currently not accepting any new commissions. I will be taking the time to finish my current commissions and personal projects, and job seeking.",
+        "Please contact me to know when I reopen commissions!"
+      ],
+      "imageUrl": "/peeking.webp"
+    },
+    "contactContent": {
+      "section": {
+        "title": "Contact Me!"
+      },
+      "methods": [
+        {
+          "id": "discord",
+          "kind": "discord",
+          "label": "Discord",
+          "value": "raybeanosu",
+          "icon": "discord",
+          "color": "#5865F2"
+        },
+        {
+          "id": "email-osu",
+          "kind": "email",
+          "label": "Email",
+          "note": "for osu! enquiries only",
+          "value": "raybeanosutourney@gmail.com",
+          "href": "mailto:raybeanosutourney@gmail.com",
+          "icon": "EnvelopeSimple",
+          "color": "#C08A2E"
+        },
+        {
+          "id": "email-general",
+          "kind": "email",
+          "label": "Email",
+          "note": "for non-osu! enquiries",
+          "value": "hireraybean@gmail.com",
+          "href": "mailto:hireraybean@gmail.com",
+          "icon": "EnvelopeSimple",
+          "color": "#C08A2E"
+        }
+      ]
+    },
+    "footerContent": {
+      "copyright": "© {year} Raybean. All rights reserved.",
+      "tagline": "Made with love and insanity.",
+      "credit": {
+        "prefix": "Website by",
+        "name": "Azaken1248",
+        "href": "https://github.com/Azaken1248"
+      }
+    }
+  },
+  "disciplines": [
+    {
+      "id": "graphic-design",
+      "route": "/graphic-design",
+      "navLabel": "graphic design",
+      "section": {
+        "title": "graphic design"
+      },
+      "toolsNote": "I mainly use **Adobe Photoshop, Figma and Affinity** for graphic designing, unless mentioned otherwise.",
+      "groups": [
+        {
+          "id": "osu-projects",
+          "section": {
+            "title": "osu! projects",
+            "description": "I am a part of the osu! World Cup Design Team, responsible for creating the visuals for all osu! originals featured in World Cups."
+          },
+          "layout": "carousel"
+        },
+        {
+          "id": "community-projects",
+          "section": {
+            "title": "community projects",
+            "description": "These are some of the projects I've worked on for various osu! tournaments outside the World Cups. This was how I got my foot in the door with graphic design, back in 2023!"
+          },
+          "layout": "carousel"
+        },
+        {
+          "id": "miscellaneous",
+          "section": {
+            "title": "miscellaneous",
+            "description": "I have also worked on other projects, mostly in social media and merchandise design."
+          },
+          "layout": "carousel"
+        }
+      ],
+      "sortOrder": 1
+    },
+    {
+      "id": "illustration",
+      "route": "/illustration",
+      "navLabel": "illustration",
+      "section": {
+        "title": "illustration",
+        "description": "A small collection of my best works!"
+      },
+      "groups": [
+        {
+          "id": "best-works",
+          "section": {
+            "title": ""
+          },
+          "layout": "masonry"
+        }
+      ],
+      "sortOrder": 2
+    },
+    {
+      "id": "video",
+      "route": "/video",
+      "navLabel": "videos & storyboards",
+      "section": {
+        "title": "videos & storyboards"
+      },
+      "groups": [
+        {
+          "id": "videos",
+          "section": {
+            "title": "Videos",
+            "description": "I use DaVinci Resolve and occasionally Adobe After Effects for my videos."
+          },
+          "layout": "video-grid"
+        },
+        {
+          "id": "storyboards",
+          "section": {
+            "title": "osu! storyboards",
+            "description": "These are made not with a video editor, but directly inside osu!. These are some of my more recent works!"
+          },
+          "layout": "video-grid"
+        }
+      ],
+      "sortOrder": 3
+    }
+  ],
+  "works": [
+    {
+      "id": "graphic-design-osu-projects-foxglove-1",
+      "artist": "Xyris",
+      "title": "FOXGLOVE",
+      "discipline": "graphic-design",
+      "group": "osu-projects",
+      "medium": "image",
+      "imageUrl": "/portfolio/gfx/osu-designs/foxglove.webp",
+      "width": 1600,
+      "height": 900,
+      "altText": "FOXGLOVE",
+      "tags": [
+        "osu! World Cup"
+      ],
+      "featured": true,
+      "sortOrder": 1
+    },
+    {
+      "id": "graphic-design-osu-projects-cansolbg-2",
+      "artist": "Cansol",
+      "title": "Out of Place",
+      "discipline": "graphic-design",
+      "group": "osu-projects",
+      "medium": "image",
+      "imageUrl": "/portfolio/gfx/osu-designs/cansolbg.webp",
+      "width": 1600,
+      "height": 900,
+      "altText": "Out of Place",
+      "tags": [
+        "osu! World Cup"
+      ],
+      "featured": false,
+      "sortOrder": 2
+    },
+    {
+      "id": "graphic-design-osu-projects-vacant-rhapsody-1-3",
+      "artist": "Penoreri",
+      "title": "Vacant Rhapsody",
+      "discipline": "graphic-design",
+      "group": "osu-projects",
+      "medium": "image",
+      "imageUrl": "/portfolio/gfx/osu-designs/vacant-rhapsody-1.webp",
+      "width": 1600,
+      "height": 900,
+      "altText": "Vacant Rhapsody",
+      "tags": [
+        "osu! World Cup"
+      ],
+      "featured": true,
+      "sortOrder": 3
+    },
+    {
+      "id": "graphic-design-osu-projects-vacant-rhapsody-2-4",
+      "artist": "Penoreri",
+      "title": "Vacant Rhapsody",
+      "discipline": "graphic-design",
+      "group": "osu-projects",
+      "medium": "image",
+      "imageUrl": "/portfolio/gfx/osu-designs/vacant-rhapsody-2.webp",
+      "width": 1600,
+      "height": 900,
+      "altText": "Vacant Rhapsody",
+      "tags": [
+        "osu! World Cup"
+      ],
+      "featured": false,
+      "sortOrder": 4
+    },
+    {
+      "id": "graphic-design-community-projects-1-5",
+      "title": "Australia & New Zealand Suiji",
+      "discipline": "graphic-design",
+      "group": "community-projects",
+      "medium": "image",
+      "imageUrl": "/portfolio/gfx/community/1.webp",
+      "width": 500,
+      "height": 500,
+      "altText": "Australia & New Zealand Suiji",
+      "tags": [
+        "Tournament"
+      ],
+      "featured": false,
+      "sortOrder": 5
+    },
+    {
+      "id": "graphic-design-community-projects-anomaly-maria-6",
+      "artist": "Kuro ft. Kasane Teto SV",
+      "title": "Anomaly Maria",
+      "discipline": "graphic-design",
+      "group": "community-projects",
+      "medium": "image",
+      "imageUrl": "/portfolio/gfx/community/anomaly-maria.webp",
+      "width": 1600,
+      "height": 900,
+      "altText": "Anomaly Maria",
+      "tags": [
+        "Tournament"
+      ],
+      "featured": true,
+      "sortOrder": 6
+    },
+    {
+      "id": "graphic-design-community-projects-coe-social-media-7",
+      "title": "cavoe's osu! event",
+      "discipline": "graphic-design",
+      "group": "community-projects",
+      "medium": "image",
+      "imageUrl": "/portfolio/gfx/community/coe-social-media.webp",
+      "width": 1080,
+      "height": 1350,
+      "altText": "cavoe's osu! event",
+      "tags": [
+        "Social Media"
+      ],
+      "featured": false,
+      "sortOrder": 7
+    },
+    {
+      "id": "graphic-design-community-projects-forum-banner1-8",
+      "title": "Fruit Loops Tournament 4",
+      "discipline": "graphic-design",
+      "group": "community-projects",
+      "medium": "image",
+      "imageUrl": "/portfolio/gfx/community/forum-banner1.webp",
+      "width": 1600,
+      "height": 500,
+      "altText": "Fruit Loops Tournament 4",
+      "tags": [
+        "Tournament"
+      ],
+      "featured": false,
+      "sortOrder": 8
+    },
+    {
+      "id": "graphic-design-community-projects-nacs-9",
+      "title": "North America Continental Summit",
+      "discipline": "graphic-design",
+      "group": "community-projects",
+      "medium": "image",
+      "imageUrl": "/portfolio/gfx/community/nacs.webp",
+      "width": 1080,
+      "height": 300,
+      "altText": "North America Continental Summit",
+      "tags": [
+        "Tournament"
+      ],
+      "featured": false,
+      "sortOrder": 9
+    },
+    {
+      "id": "graphic-design-community-projects-ocbs-10",
+      "title": "osu! Chennai Beachside Showdown",
+      "discipline": "graphic-design",
+      "group": "community-projects",
+      "medium": "image",
+      "imageUrl": "/portfolio/gfx/community/ocbs.webp",
+      "width": 1400,
+      "height": 400,
+      "altText": "osu! Chennai Beachside Showdown",
+      "tags": [
+        "Tournament"
+      ],
+      "featured": false,
+      "sortOrder": 10
+    },
+    {
+      "id": "graphic-design-community-projects-fruit-loops-3",
+      "title": "Fruit Loops Tournament 3",
+      "discipline": "graphic-design",
+      "group": "community-projects",
+      "medium": "image",
+      "imageUrl": "/portfolio/gfx/community/2.webp",
+      "width": 1400,
+      "height": 500,
+      "altText": "Fruit Loops Tournament 3",
+      "tags": [
+        "Tournament"
+      ],
+      "featured": false,
+      "sortOrder": 11
+    },
+    {
+      "id": "graphic-design-community-projects-osu-voice-2",
+      "title": "osu! voice 2",
+      "discipline": "graphic-design",
+      "group": "community-projects",
+      "medium": "image",
+      "imageUrl": "/portfolio/gfx/community/osu-voice-2.webp",
+      "width": 1400,
+      "height": 400,
+      "altText": "osu! voice 2 banner",
+      "tags": [
+        "Tournament"
+      ],
+      "featured": false,
+      "sortOrder": 13
+    },
+    {
+      "id": "graphic-design-miscellaneous-6wc4-india-thumbnail-wip-11",
+      "title": "6WC4 India",
+      "discipline": "graphic-design",
+      "group": "miscellaneous",
+      "medium": "image",
+      "imageUrl": "/portfolio/gfx/misc/6wc4-india-thumbnail-wip.webp",
+      "width": 1600,
+      "height": 900,
+      "altText": "6WC4 India",
+      "tags": [
+        "YT Thumbnail"
+      ],
+      "featured": false,
+      "sortOrder": 11
+    },
+    {
+      "id": "graphic-design-miscellaneous-coe-hoodie-12",
+      "title": "cavoe's osu! event 2026",
+      "discipline": "graphic-design",
+      "group": "miscellaneous",
+      "medium": "image",
+      "imageUrl": "/portfolio/gfx/misc/coe-hoodie.webp",
+      "width": 1600,
+      "height": 1200,
+      "altText": "cavoe's osu! event 2026",
+      "tags": [
+        "Merch"
+      ],
+      "featured": false,
+      "sortOrder": 12
+    },
+    {
+      "id": "graphic-design-miscellaneous-coe-shorts-13",
+      "title": "cavoe's osu! event 2026",
+      "discipline": "graphic-design",
+      "group": "miscellaneous",
+      "medium": "image",
+      "imageUrl": "/portfolio/gfx/misc/coe-shorts.webp",
+      "width": 942,
+      "height": 1180,
+      "altText": "cavoe's osu! event 2026",
+      "tags": [
+        "Merch"
+      ],
+      "featured": false,
+      "sortOrder": 13
+    },
+    {
+      "id": "graphic-design-miscellaneous-dj-mag-14",
+      "title": "DJ Mag",
+      "discipline": "graphic-design",
+      "group": "miscellaneous",
+      "medium": "image",
+      "imageUrl": "/portfolio/gfx/misc/dj-mag.webp",
+      "width": 1600,
+      "height": 900,
+      "altText": "DJ Mag",
+      "tags": [
+        "YT Thumbnail"
+      ],
+      "featured": false,
+      "sortOrder": 14
+    },
+    {
+      "id": "graphic-design-miscellaneous-hitsmun-24-branding-15",
+      "title": "HITS' Model United Nations 2024",
+      "discipline": "graphic-design",
+      "group": "miscellaneous",
+      "medium": "image",
+      "imageUrl": "/portfolio/gfx/misc/hitsmun-24-branding.webp",
+      "width": 1600,
+      "height": 900,
+      "altText": "HITS' Model United Nations 2024",
+      "tags": [
+        "Branding"
+      ],
+      "featured": false,
+      "sortOrder": 15
+    },
+    {
+      "id": "graphic-design-miscellaneous-hitsmun-social-1-16",
+      "title": "HITSMUN 2023",
+      "discipline": "graphic-design",
+      "group": "miscellaneous",
+      "medium": "image",
+      "imageUrl": "/portfolio/gfx/misc/hitsmun-social-1.webp",
+      "width": 1600,
+      "height": 534,
+      "altText": "HITSMUN 2023",
+      "tags": [
+        "Social Media"
+      ],
+      "featured": false,
+      "sortOrder": 16
+    },
+    {
+      "id": "graphic-design-miscellaneous-hitsmun-social-2-17",
+      "title": "HITSMUN 2023",
+      "discipline": "graphic-design",
+      "group": "miscellaneous",
+      "medium": "image",
+      "imageUrl": "/portfolio/gfx/misc/hitsmun-social-2.webp",
+      "width": 1080,
+      "height": 1080,
+      "altText": "HITSMUN 2023",
+      "tags": [
+        "Social Media"
+      ],
+      "featured": false,
+      "sortOrder": 17
+    },
+    {
+      "id": "graphic-design-miscellaneous-lld1-18",
+      "title": "Laborless Digital",
+      "discipline": "graphic-design",
+      "group": "miscellaneous",
+      "medium": "image",
+      "imageUrl": "/portfolio/gfx/misc/lld1.webp",
+      "width": 1280,
+      "height": 1600,
+      "altText": "Laborless Digital",
+      "tags": [
+        "Social Media"
+      ],
+      "featured": false,
+      "sortOrder": 18
+    },
+    {
+      "id": "graphic-design-miscellaneous-lld2-19",
+      "title": "Laborless Digital",
+      "discipline": "graphic-design",
+      "group": "miscellaneous",
+      "medium": "image",
+      "imageUrl": "/portfolio/gfx/misc/lld2.webp",
+      "width": 1200,
+      "height": 1600,
+      "altText": "Laborless Digital",
+      "tags": [
+        "Social Media"
+      ],
+      "featured": false,
+      "sortOrder": 19
+    },
+    {
+      "id": "graphic-design-miscellaneous-lld3-20",
+      "title": "Laborless Digital",
+      "discipline": "graphic-design",
+      "group": "miscellaneous",
+      "medium": "image",
+      "imageUrl": "/portfolio/gfx/misc/lld3.webp",
+      "width": 1200,
+      "height": 1600,
+      "altText": "Laborless Digital",
+      "tags": [
+        "Social Media"
+      ],
+      "featured": false,
+      "sortOrder": 20
+    },
+    {
+      "id": "graphic-design-miscellaneous-owc-yt-thumbnail-21",
+      "title": "osu! World Cup",
+      "discipline": "graphic-design",
+      "group": "miscellaneous",
+      "medium": "image",
+      "imageUrl": "/portfolio/gfx/misc/owc-yt-thumbnail.webp",
+      "width": 1600,
+      "height": 900,
+      "altText": "osu! World Cup",
+      "tags": [
+        "YT Thumbnail"
+      ],
+      "featured": false,
+      "sortOrder": 21
+    },
+    {
+      "id": "graphic-design-miscellaneous-lld4",
+      "title": "Laborless Digital",
+      "discipline": "graphic-design",
+      "group": "miscellaneous",
+      "medium": "image",
+      "imageUrl": "/portfolio/gfx/misc/lld4.webp",
+      "width": 1600,
+      "height": 1600,
+      "altText": "Mock social media post for Laborless Digital",
+      "tags": [
+        "Social Media"
+      ],
+      "featured": false,
+      "sortOrder": 22
+    },
+    {
+      "id": "graphic-design-miscellaneous-ocbs-id",
+      "title": "osu! Chennai Beachside Showdown",
+      "discipline": "graphic-design",
+      "group": "miscellaneous",
+      "medium": "image",
+      "imageUrl": "/portfolio/gfx/misc/ocbs-id.webp",
+      "width": 1600,
+      "height": 1200,
+      "altText": "ID card design for osu! Chennai Beachside Showdown",
+      "tags": [
+        "ID Card"
+      ],
+      "featured": false,
+      "sortOrder": 23
+    },
+    {
+      "id": "graphic-design-miscellaneous-lowola",
+      "title": "Lowola",
+      "discipline": "graphic-design",
+      "group": "miscellaneous",
+      "medium": "image",
+      "imageUrl": "/portfolio/gfx/misc/lowola.webp",
+      "width": 500,
+      "height": 500,
+      "altText": "Vtuber-style logo for Lowola",
+      "tags": [
+        "Vtuber Logo"
+      ],
+      "featured": false,
+      "sortOrder": 24
+    },
+    {
+      "id": "graphic-design-miscellaneous-utiba",
+      "title": "Utiba",
+      "discipline": "graphic-design",
+      "group": "miscellaneous",
+      "medium": "image",
+      "imageUrl": "/portfolio/gfx/misc/utiba.webp",
+      "width": 576,
+      "height": 432,
+      "altText": "Vtuber-style logo for Utiba",
+      "tags": [
+        "Vtuber Logo"
+      ],
+      "featured": false,
+      "sortOrder": 25
+    },
+    {
+      "id": "illustration-best-works-astrogirl-22",
+      "title": "Astro Girl",
+      "discipline": "illustration",
+      "group": "best-works",
+      "medium": "image",
+      "imageUrl": "/portfolio/illustrations/astrogirl.webp",
+      "width": 1600,
+      "height": 900,
+      "altText": "Astro Girl",
+      "tags": [
+        "Illustration"
+      ],
+      "featured": false,
+      "sortOrder": 22
+    },
+    {
+      "id": "illustration-best-works-ayu-chloe-2-23",
+      "title": "Ayu & Chloe",
+      "discipline": "illustration",
+      "group": "best-works",
+      "medium": "image",
+      "imageUrl": "/portfolio/illustrations/ayu-chloe-2.webp",
+      "width": 1600,
+      "height": 900,
+      "altText": "Ayu & Chloe",
+      "tags": [
+        "Illustration"
+      ],
+      "featured": false,
+      "sortOrder": 23
+    },
+    {
+      "id": "illustration-best-works-bocchi-24",
+      "title": "Bocchi",
+      "discipline": "illustration",
+      "group": "best-works",
+      "medium": "image",
+      "imageUrl": "/portfolio/illustrations/bocchi.webp",
+      "width": 1440,
+      "height": 1440,
+      "altText": "Bocchi",
+      "tags": [
+        "Illustration"
+      ],
+      "featured": false,
+      "sortOrder": 24
+    },
+    {
+      "id": "illustration-best-works-capy1-25",
+      "title": "Capy",
+      "discipline": "illustration",
+      "group": "best-works",
+      "medium": "image",
+      "imageUrl": "/portfolio/illustrations/capy1.webp",
+      "width": 1000,
+      "height": 1000,
+      "altText": "Capy",
+      "tags": [
+        "Illustration"
+      ],
+      "featured": false,
+      "sortOrder": 25
+    },
+    {
+      "id": "illustration-best-works-capy2-26",
+      "title": "Capy",
+      "discipline": "illustration",
+      "group": "best-works",
+      "medium": "image",
+      "imageUrl": "/portfolio/illustrations/capy2.webp",
+      "width": 1000,
+      "height": 1000,
+      "altText": "Capy",
+      "tags": [
+        "Illustration"
+      ],
+      "featured": false,
+      "sortOrder": 26
+    },
+    {
+      "id": "illustration-best-works-fallen-27",
+      "title": "Wanderer of the Warm Winds",
+      "discipline": "illustration",
+      "group": "best-works",
+      "medium": "image",
+      "imageUrl": "/portfolio/illustrations/fallen.webp",
+      "width": 1081,
+      "height": 1600,
+      "altText": "Wanderer of the Warm Winds",
+      "tags": [
+        "Illustration"
+      ],
+      "featured": false,
+      "sortOrder": 27
+    },
+    {
+      "id": "illustration-best-works-lucine-likes-bread-28",
+      "title": "Lucine Likes Bread",
+      "discipline": "illustration",
+      "group": "best-works",
+      "medium": "image",
+      "imageUrl": "/portfolio/illustrations/lucine-likes-bread.webp",
+      "width": 1440,
+      "height": 1440,
+      "altText": "Lucine Likes Bread",
+      "tags": [
+        "Illustration"
+      ],
+      "featured": false,
+      "sortOrder": 28
+    },
+    {
+      "id": "illustration-best-works-maomao-29",
+      "title": "Maomao",
+      "discipline": "illustration",
+      "group": "best-works",
+      "medium": "image",
+      "imageUrl": "/portfolio/illustrations/maomao.webp",
+      "width": 1081,
+      "height": 1600,
+      "altText": "Maomao",
+      "tags": [
+        "Illustration"
+      ],
+      "featured": false,
+      "sortOrder": 29
+    },
+    {
+      "id": "illustration-best-works-monitoring-30",
+      "artist": "DECO*27",
+      "title": "Monitoring",
+      "discipline": "illustration",
+      "group": "best-works",
+      "medium": "image",
+      "imageUrl": "/portfolio/illustrations/monitoring.webp",
+      "width": 1600,
+      "height": 900,
+      "altText": "Monitoring",
+      "tags": [
+        "Fanart"
+      ],
+      "featured": true,
+      "sortOrder": 30
+    },
+    {
+      "id": "illustration-best-works-pippi-pencil-31",
+      "title": "Pippi",
+      "discipline": "illustration",
+      "group": "best-works",
+      "medium": "image",
+      "imageUrl": "/portfolio/illustrations/pippi-pencil.webp",
+      "width": 1129,
+      "height": 997,
+      "altText": "Pippi",
+      "tags": [
+        "Illustration"
+      ],
+      "featured": false,
+      "sortOrder": 31
+    },
+    {
+      "id": "illustration-best-works-resonance-of-ice-stalactites-not-final-32",
+      "title": "Resonance of Ice Stalactites",
+      "discipline": "illustration",
+      "group": "best-works",
+      "medium": "image",
+      "imageUrl": "/portfolio/illustrations/resonance-of-ice-stalactites-not-final.webp",
+      "altText": "Resonance of Ice Stalactites",
+      "tags": [
+        "Illustration"
+      ],
+      "featured": false,
+      "sortOrder": 32
+    },
+    {
+      "id": "illustration-best-works-retry-now-33",
+      "title": "Retry Now",
+      "discipline": "illustration",
+      "group": "best-works",
+      "medium": "image",
+      "imageUrl": "/portfolio/illustrations/retry-now.webp",
+      "width": 1440,
+      "height": 1440,
+      "altText": "Retry Now",
+      "tags": [
+        "Illustration"
+      ],
+      "featured": false,
+      "sortOrder": 33
+    },
+    {
+      "id": "illustration-best-works-rioxiety-yuri-34",
+      "title": "Rioxiety",
+      "discipline": "illustration",
+      "group": "best-works",
+      "medium": "image",
+      "imageUrl": "/portfolio/illustrations/rioxiety-yuri.webp",
+      "width": 1440,
+      "height": 1440,
+      "altText": "Rioxiety",
+      "tags": [
+        "Illustration"
+      ],
+      "featured": false,
+      "sortOrder": 34
+    },
+    {
+      "id": "illustration-best-works-self-portrait-2024-35",
+      "title": "Self Portrait 2024",
+      "discipline": "illustration",
+      "group": "best-works",
+      "medium": "image",
+      "imageUrl": "/portfolio/illustrations/self-portrait-2024.webp",
+      "width": 1600,
+      "height": 900,
+      "altText": "Self Portrait 2024",
+      "tags": [
+        "Illustration"
+      ],
+      "featured": false,
+      "sortOrder": 35
+    },
+    {
+      "id": "illustration-best-works-tatsuma-36",
+      "title": "Tatsuma",
+      "discipline": "illustration",
+      "group": "best-works",
+      "medium": "image",
+      "imageUrl": "/portfolio/illustrations/tatsuma.webp",
+      "width": 1440,
+      "height": 1440,
+      "altText": "Tatsuma",
+      "tags": [
+        "Illustration"
+      ],
+      "featured": false,
+      "sortOrder": 36
+    },
+    {
+      "id": "illustration-best-works-vanda-the-outsider-37",
+      "title": "Vanda — The Outsider",
+      "discipline": "illustration",
+      "group": "best-works",
+      "medium": "image",
+      "imageUrl": "/portfolio/illustrations/vanda-the-outsider.webp",
+      "width": 1600,
+      "height": 900,
+      "altText": "Vanda — The Outsider",
+      "tags": [
+        "Illustration"
+      ],
+      "featured": false,
+      "sortOrder": 37
+    },
+    {
+      "id": "illustration-best-works-weathergirl-38",
+      "title": "Weather Girl",
+      "discipline": "illustration",
+      "group": "best-works",
+      "medium": "image",
+      "imageUrl": "/portfolio/illustrations/weathergirl.webp",
+      "width": 1600,
+      "height": 900,
+      "altText": "Weather Girl",
+      "tags": [
+        "Illustration"
+      ],
+      "featured": false,
+      "sortOrder": 38
+    },
+    {
+      "id": "illustration-best-works-we-chilling-39",
+      "title": "We Chilling",
+      "discipline": "illustration",
+      "group": "best-works",
+      "medium": "image",
+      "imageUrl": "/portfolio/illustrations/we-chilling.webp",
+      "width": 1081,
+      "height": 1600,
+      "altText": "We Chilling",
+      "tags": [
+        "Illustration"
+      ],
+      "featured": false,
+      "sortOrder": 39
+    },
+    {
+      "id": "video-videos-6wc2-india-roster-40",
+      "title": "6WC2 Team India Roster Reveal",
+      "discipline": "video",
+      "group": "videos",
+      "medium": "video",
+      "imageUrl": "/portfolio/video/6wc2-india-roster.webp",
+      "width": 1280,
+      "height": 720,
+      "altText": "6WC2 Team India Roster Reveal",
+      "embedUrl": "https://youtu.be/ZR870PnoLyE",
+      "tags": [
+        "Video"
+      ],
+      "featured": false,
+      "sortOrder": 40
+    },
+    {
+      "id": "video-videos-6wc3-india-roster-41",
+      "title": "6WC3 Team India Roster Reveal",
+      "discipline": "video",
+      "group": "videos",
+      "medium": "video",
+      "imageUrl": "/portfolio/video/6wc3-india-roster.webp",
+      "width": 1280,
+      "height": 720,
+      "altText": "6WC3 Team India Roster Reveal",
+      "embedUrl": "https://youtu.be/g2DKg2qC8us",
+      "tags": [
+        "Video"
+      ],
+      "featured": false,
+      "sortOrder": 41
+    },
+    {
+      "id": "video-videos-owc-2024-india-roster-42",
+      "title": "OWC 2024 Team India Roster Reveal",
+      "discipline": "video",
+      "group": "videos",
+      "medium": "video",
+      "imageUrl": "/portfolio/video/owc-2024-india-roster.webp",
+      "width": 1280,
+      "height": 720,
+      "altText": "OWC 2024 Team India Roster Reveal",
+      "embedUrl": "https://youtu.be/E6CpSOJP_Yw",
+      "tags": [
+        "Video"
+      ],
+      "featured": false,
+      "sortOrder": 42
+    },
+    {
+      "id": "video-videos-jp-top15-2023-43",
+      "title": "2023 Japanese Top 15 osu!standard Players",
+      "discipline": "video",
+      "group": "videos",
+      "medium": "video",
+      "imageUrl": "/portfolio/video/jp-top15-2023.webp",
+      "width": 1280,
+      "height": 720,
+      "altText": "2023 Japanese Top 15 osu!standard Players",
+      "embedUrl": "https://youtu.be/76MkaIMJJc4",
+      "tags": [
+        "Video"
+      ],
+      "featured": false,
+      "sortOrder": 43
+    },
+    {
+      "id": "video-storyboards-vandalism-the-outsider-44",
+      "artist": "Ashrount",
+      "title": "Vandalism -The Outsider- (collab with rrex)",
+      "discipline": "video",
+      "group": "storyboards",
+      "medium": "storyboard",
+      "imageUrl": "/portfolio/storyboards/vandalism-the-outsider.webp",
+      "width": 1280,
+      "height": 720,
+      "altText": "Vandalism -The Outsider- (collab with rrex)",
+      "embedUrl": "https://youtu.be/9r3qYjaiZOs",
+      "tags": [
+        "osu! storyboard"
+      ],
+      "featured": false,
+      "sortOrder": 44
+    },
+    {
+      "id": "video-storyboards-know-me-45",
+      "artist": "Kairi Yagi",
+      "title": "know me...",
+      "discipline": "video",
+      "group": "storyboards",
+      "medium": "storyboard",
+      "imageUrl": "/portfolio/storyboards/know-me.webp",
+      "width": 1280,
+      "height": 720,
+      "altText": "know me...",
+      "embedUrl": "https://youtu.be/VRVI9Kak8n0",
+      "tags": [
+        "osu! storyboard"
+      ],
+      "featured": false,
+      "sortOrder": 45
+    },
+    {
+      "id": "video-storyboards-resplendence-46",
+      "artist": "Kagetora.",
+      "title": "Resplendence (collab with rrex)",
+      "discipline": "video",
+      "group": "storyboards",
+      "medium": "storyboard",
+      "imageUrl": "/portfolio/storyboards/resplendence.webp",
+      "width": 1280,
+      "height": 720,
+      "altText": "Resplendence (collab with rrex)",
+      "embedUrl": "https://youtu.be/lIwasyrpw6w",
+      "tags": [
+        "osu! storyboard"
+      ],
+      "featured": false,
+      "sortOrder": 46
+    },
+    {
+      "id": "video-storyboards-gumbarlzo-47",
+      "artist": "t+pazolite",
+      "title": "Gumbarlzo! (collab with Kuroise)",
+      "discipline": "video",
+      "group": "storyboards",
+      "medium": "storyboard",
+      "imageUrl": "/portfolio/storyboards/gumbarlzo.webp",
+      "width": 1280,
+      "height": 720,
+      "altText": "Gumbarlzo! (collab with Kuroise)",
+      "embedUrl": "https://youtu.be/esGtekfbdBg",
+      "tags": [
+        "osu! storyboard"
+      ],
+      "featured": true,
+      "sortOrder": 47
+    },
+    {
+      "id": "video-storyboards-vividvelocity-48",
+      "artist": "Synthion",
+      "title": "VIVIDVELOCITY (collab with -Furimuu)",
+      "discipline": "video",
+      "group": "storyboards",
+      "medium": "storyboard",
+      "imageUrl": "/portfolio/storyboards/vividvelocity.webp",
+      "width": 1280,
+      "height": 720,
+      "altText": "VIVIDVELOCITY (collab with -Furimuu)",
+      "embedUrl": "https://youtu.be/E22JPjslChA",
+      "tags": [
+        "osu! storyboard"
+      ],
+      "featured": false,
+      "sortOrder": 48
+    },
+    {
+      "id": "video-storyboards-scattered-and-lost-49",
+      "artist": "Lena Raine",
+      "title": "Scattered and Lost (collab with Coppertine)",
+      "discipline": "video",
+      "group": "storyboards",
+      "medium": "storyboard",
+      "imageUrl": "/portfolio/storyboards/scattered-and-lost.webp",
+      "width": 1280,
+      "height": 720,
+      "altText": "Scattered and Lost (collab with Coppertine)",
+      "embedUrl": "https://youtu.be/9yM380VZeQE",
+      "tags": [
+        "osu! storyboard"
+      ],
+      "featured": false,
+      "sortOrder": 49
+    },
+    {
+      "id": "video-storyboards-nasu-is-not-fruits-desu-50",
+      "artist": "YUC'e",
+      "title": "Nasu is Not Fruits Desu!",
+      "discipline": "video",
+      "group": "storyboards",
+      "medium": "storyboard",
+      "imageUrl": "/portfolio/storyboards/nasu-is-not-fruits-desu.webp",
+      "width": 1280,
+      "height": 720,
+      "altText": "Nasu is Not Fruits Desu!",
+      "embedUrl": "https://youtu.be/FUEavFSonOU",
+      "tags": [
+        "osu! storyboard"
+      ],
+      "featured": true,
+      "sortOrder": 50
+    }
+  ],
+  "commissionTiers": []
+}

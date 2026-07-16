@@ -1,0 +1,29 @@
+# Runtime
+.env
+.env.local
+.env.production
+
+# Build output
+dist/
+build/
+
+# Dependencies
+node_modules/
+
+# Test / coverage
+coverage/
+.vitest/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
